@@ -18,3 +18,7 @@ header h1 span {
   border-radius: 5px;
   margin-bottom: 5px;
 }
+
+.displaynone {
+  display: none;
+}
