@@ -3,6 +3,7 @@
 	<title>Lukas och Daniels Skitspel</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+	<script src="js/functions.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -12,8 +13,11 @@
     </h1>
   </header>
   <section>
-    <button id="start" onclick="updateTimer()">Starta</button>
-    <button id="start">Hej</button>
+	<div id="button_div">
+		<button class="start" onclick="updateTimer(); document.getElementById('button_div').style.display = 'none';">Starta</button>
+		<button class="start">Hej</button>
+	</div>
+	
     <h1 id="timer"></h1>
   </section>
 </body>
