@@ -37,6 +37,8 @@ function updateTimer(){
 
 
 
+
+
 function showMessage(){
-	document.getElementById("hej").className = "";
+	document.getElementById("message").className = "";
 }
