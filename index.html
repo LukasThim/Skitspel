@@ -13,17 +13,14 @@
     </h1>
   </header>
   <section>
-    <button onClick="showMessage()" class="start hej">Hej</button>
-		<h2 class="displaynone" id="message">Fuck You little beich!!!</h2>
+		<div id="button_div">
+			<button class="start" onclick="spawnImage(); document.getElementById('button_div').style.display = 'none';">Starta</button>
+		</div>
 
-	<div id="button_div">
-		<button class="start" onclick="spawnImage(); document.getElementById('button_div').style.display = 'none';">Starta</button>
-	</div>
+		<div id="image_div">
 
-	<div id="image_div">
+		</div>
 
-	</div>
-
-    <h1 id="timer"></h1>
+	    <h1 id="timer"></h1>
   </section>
 </body>

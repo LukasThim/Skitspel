@@ -24,21 +24,3 @@ function updateTimer(){
 		image.parentNode.removeChild(image);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function showMessage(){
-	document.getElementById("message").className = "";
-}
