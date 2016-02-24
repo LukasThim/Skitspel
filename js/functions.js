@@ -23,7 +23,29 @@ function updateTimer(){
 	}
 }
 
-function(display(function){
-	(hej).onClick(function){
-		(hej).removeClass(.displaynone);
-	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function showMessage(){
+	document.getElementById("hej").className = "";
+}
